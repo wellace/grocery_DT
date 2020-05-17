@@ -102,10 +102,10 @@ cat_data <- my_data_clean %>%
 # Write data
 # ------------------------------------------------------------------------------
 write_tsv(x = transactions_data,
-          path = "data/03_transactions_data.tsv")
+          path = "data/shiny/01_transactions.tsv")
 
 write_tsv(x = time_data,
-          path = "data/04_time_data.tsv")
+          path = "data/shiny/02_time.tsv")
 
 write_tsv(x = transactions_data,
-          path = "data/05_cat_data.tsv")
+          path = "data/shiny/03_categories.tsv")
